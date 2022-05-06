@@ -1,0 +1,13 @@
+/*#bg
+{
+    background-color: hotpink;
+}*/
+/*body{
+    background-color: red;
+}*/
+#bg
+{
+    background-image: url('.images/back.jpg');
+    background-size: 20px 50px;
+    
+}

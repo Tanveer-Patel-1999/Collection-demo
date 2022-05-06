@@ -1,0 +1,26 @@
+a
+{
+    text-decoration: none;
+}
+/* in html link is present in 4 state */
+
+/*link state */
+a:link
+{
+color: red;
+}
+/*visited state */
+a:visited
+{
+color: aquamarine;
+}
+/*link on cursor */
+a:hover
+{
+color: bisque;
+}
+/*link is active */
+a:active
+{
+color: brown;
+}

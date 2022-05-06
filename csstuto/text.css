@@ -1,0 +1,42 @@
+#d1
+{
+   /* border: 1px solid black;
+    width: 500px;
+    color: red;
+   /* text-align: center;
+   /* text-align: justify;
+    direction: rtl;
+
+    text-decoration: underline;
+    text-decoration: overline;
+   /* text-decoration: line-through;
+
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+
+    line-height: 30px;
+
+    text-indent: 30px;
+
+    letter-spacing: 5px;
+
+
+    word-spacing: 10px;*/
+
+    
+}
+#shadow
+{
+    font-size: 40px;
+    text-shadow: 5px 5px 6px red;
+}
+
+/*writing mode */
+#write
+{
+    width: 500px;
+    border: 2px dotted blue;
+    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
+}

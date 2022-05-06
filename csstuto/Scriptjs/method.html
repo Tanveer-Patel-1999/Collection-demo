@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*var name = ["Tanveer","Anik","Saheb","Patel"];
+        document.write(name +"<br>");
+        name.reverse();
+       // name.sort();
+       name.length();
+        document.write(name +"<br>");*/
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+        document.write( fruits +"<br>");
+        fruits.sort();
+        document.write( fruits +"<br>");
+        fruits.reverse();
+        document.write( fruits +"<br>");
+        fruits.pop();
+        document.write( fruits +"<br>");
+        fruits.push("potato");
+        document.write( fruits +"<br>");
+        fruits.shift();
+        document.write( fruits +"<br>");
+        fruits.unshift("Apple");
+        document.write( fruits +"<br>");
+        var F = fruits.concat(fruits1);
+        document.write(F +"<br>");
+        var F1 = fruits.join("/");
+
+        var g = fruits.slice(1,3)
+        document.write(g);
+        fruits.splice(2,0,"anik","patel");
+        document.write(fruits + "<br>");
+
+        var h = fruits.indexOf("saheb");
+        document.write(h+ "<br>");
+
+        var h = fruits.lastIndexOf("Banana");
+        document.write(h+ "<br>");
+
+        var b = Array.isArray(fruits);
+        document.write(b + "<br>");
+
+        var h1 = fruits.includes("Mango");
+        document.write(h1+ "<br>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var age = [10,20,30,40];
+        document.write(age + "<br>");
+
+        function check(age)
+        {
+            return age >= 18;
+        }
+        var adult = age.some(check);
+        document.write(adult + "<br>");
+
+        var adult = age.every(check);
+        document.write(adult + "<br>");
+
+        var adult = age.find(check);
+        document.write(adult + "<br>");
+
+        var adult = age.findIndex(check);
+        document.write(adult + "<br>");
+
+        var adult = age.filter(check);
+        document.write(adult + "<br>");
+
+        var adult = age.toString(check);
+        document.write(adult + "<br>");
+
+        
+        var adult = age.valueOf(check);
+        document.write(adult + "<br>");
+
+        
+        var adult = age.fill("A");
+        document.write(adult + "<br>");
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

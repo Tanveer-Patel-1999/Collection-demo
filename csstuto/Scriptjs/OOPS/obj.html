@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script>
+        var a = {
+            fname : "A",
+            lname : "p",
+            city : "karoshi",
+            emil : "tanverr@12gamil.com",
+            age : 18,
+            score : [2,3,4,5],
+            info : {
+                id : 1,
+                name : "tanveer"
+
+            },
+            salary : function()
+            {
+                return 120000;
+            },
+            fullName : function()
+            {
+                return this.fname + " "+ this.lname;
+            }
+        }
+        console.log(a);
+        document.write(a.fname + "<br>");
+        document.write(a.score + "<br>");
+        document.write(a.salary() + "<br>");
+        document.write(a.fullName() + "<br>");
+        document.write(a.info.id + "<br>");
+    </Script>
+</head>
+<body>
+    
+</body>
+</html>
