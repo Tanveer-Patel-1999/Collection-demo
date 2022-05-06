@@ -44,7 +44,7 @@ public class Generic {
 
     public static void main(String[] args) {
 
-        //doubleValue m
+        //doubleValue method
         String value = doubleValue(new String());
         Integer num = doubleValue(Integer.valueOf(5));
         ArrayList list = doubleValue(new ArrayList<>());
@@ -60,16 +60,31 @@ public class Generic {
         duplicate(linkedList);
         System.out.println(linkedList);//[ab, cd, ce, ab, cd, ce]
 
+        //using foreach loop we print
+        for (String val: linkedList)
+        {
+            System.out.println(val);
+        }
+
+        //using for loop
+        for (int i=0; i<arrayList.size(); i++)
+        {
+            System.out.println(arrayList.get(i));
+        }
+
 
         //create a list n sum of number
         System.out.println("Sum=" + sumOfNumberList(List.of(1, 2, 3, 4, 5, 6)));
         System.out.println("Sum=" + sumOfNumberList(List.of(1.2, 2.3, 3.5, 4.6, 5.7, 6.9)));
         System.out.println("Sum=" + sumOfNumberList(List.of(1l, 2l, 3l, 4l, 5l, 6l)));
 
-        //create a list for  addACoupleOfValues method
+       //create a list for  addACoupleOfValues method
         List list1 = new ArrayList<Number>();
         addACoupleOfValues(list1);
         System.out.println(list1);
+
+        //get the element from linkedlist
+        System.out.println(linkedList.get(1));
 
         //Add integer in an list
      /*   MyCustom<Integer> myCustom = new MyCustom();
