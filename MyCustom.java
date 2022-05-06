@@ -21,7 +21,7 @@ public class MyCustom<T extends Number> {
 
     //get a element from a list
     public T get(int index) {
-        return list.get(1);
+        return list.get(index);
     }
 
     //print a list
